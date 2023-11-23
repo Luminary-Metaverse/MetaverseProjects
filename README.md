@@ -6,7 +6,7 @@
 - Muhammad Zuhair Zuhdi / X RPL 6
 
 ### 3D Assets
-- Muhammad Raya Putra Ashiddiqi / X RPL / X RPL 3
+- Muhammad Raya Putra Ashiddiqi / X RPL 3
 - Muhammad Zalmaladzi El-Shirazi / X RPL 8
 
 ### Programmer
