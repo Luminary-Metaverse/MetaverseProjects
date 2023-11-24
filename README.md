@@ -1,22 +1,44 @@
 # MetaverseProject
 
 ## How to run
+
 #### Install package
+
 ```sh
 npm install
 ```
+
 #### Run Development
 
 ```sh
 npm run dev
 ```
+
 #### Run Build
 
 ```sh
 npm run build
 ```
 
+## Techstack
+
+- [C#](https://learn.microsoft.com/en-us/dotnet/csharp/) - Bahasa utama yang digunakan pada projek ini.
+- [Unity](https://unity.com/) - Game Engine yang digunakan.
+- [Blender](https://www.blender.org/) - Software 3D model.
+- [Visual Studio Code](https://code.visualstudio.com/) - Code editor yang digunakan.
+- [Microdoft Visual Studio](https://visualstudio.microsoft.com/) - Code editor yang digunakan.
+- [Javascript](https://id.wikipedia.org/wiki/JavaScript) - Bahasa yang digunakan pada projek ini.
+- [Nodejs](https://nodejs.org/) - Untuk menjalankan projek ini.
+- [HTTP](https://nodejs.org/api/http.html) - Library utama yang digunakan.
+- [Socket.io](https://socket.io/) - Framework utama yang digunakan.
+
 ## Member
+
+### Supervisor
+
+- Firmansyah Ayatullah, S.Kom
+- Muhammad Chusni Agus, M. Pd., Gr.
+
 ### Leader
 
 - Muhammad Zuhair Zuhdi / X RPL 6
@@ -47,9 +69,3 @@ npm run build
 ### Hustler
 
 - Raisya Ramadhani Achmad / X RPL 8
-
-## Techstack
-- [Javascript](https://id.wikipedia.org/wiki/JavaScript) - Bahasa yang digunakan pada projek ini.
-- [Nodejs](https://nodejs.org/) - Untuk menjalankan projek ini.
-- [HTTP](https://nodejs.org/api/http.html) - Library utama yang digunakan.
-- [Socket.io](https://socket.io/) - Framework utama yang digunakan.
