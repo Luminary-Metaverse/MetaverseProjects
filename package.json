@@ -1,0 +1,19 @@
+{
+  "name": "metaverseprojects",
+  "version": "1.0.0",
+  "description": "Build Metaverse with node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luminary-Metaverse/MetaverseProjects.git"
+  },
+  "author": "Luminary Studio Metaverse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luminary-Metaverse/MetaverseProjects/issues"
+  },
+  "homepage": "https://github.com/Luminary-Metaverse/MetaverseProjects#readme"
+}
