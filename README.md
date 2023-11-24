@@ -1,7 +1,22 @@
 # MetaverseProject
 
-## Member
+## How to run
+#### Install package
+```sh
+npm install
+```
+#### Run Development
 
+```sh
+npm run dev
+```
+#### Run Build
+
+```sh
+npm run build
+```
+
+## Member
 ### Leader
 
 - Muhammad Zuhair Zuhdi / X RPL 6
@@ -32,3 +47,9 @@
 ### Hustler
 
 - Raisya Ramadhani Achmad / X RPL 8
+
+## Techstack
+- [Javascript](https://id.wikipedia.org/wiki/JavaScript) - Bahasa yang digunakan pada projek ini.
+- [Nodejs](https://nodejs.org/) - Untuk menjalankan projek ini.
+- [HTTP](https://nodejs.org/api/http.html) - Library utama yang digunakan.
+- [Socket.io](https://socket.io/) - Framework utama yang digunakan.
