@@ -37,6 +37,7 @@ npm run build
 ### Supervisor
 
 - Firmansyah Ayatullah, S.Kom
+- Muhammad Chusni Agus, M. Pd., Gr.
 
 ### Leader
 
