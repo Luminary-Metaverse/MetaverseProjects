@@ -69,3 +69,7 @@ npm run build
 ### Hustler
 
 - Raisya Ramadhani Achmad / X RPL 8
+
+## Conventional Commit Messages
+
+[Click Here](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)
