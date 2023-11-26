@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server METAVERSE",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luminary-Metaverse/MetaverseProjects.git"
+  },
+  "author": "Luminary Metaverse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Luminary-Metaverse/MetaverseProjects/issues"
+  },
+  "homepage": "https://github.com/Luminary-Metaverse/MetaverseProjects#readme",
+  "dependencies": {
+    "socket.io": "^4.7.2"
+  }
+}
