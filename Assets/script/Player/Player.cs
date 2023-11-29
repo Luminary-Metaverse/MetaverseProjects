@@ -36,5 +36,10 @@ public class Player : MonoBehaviour
         {
             Debug.Print($"{DateTime.Now} Reconnecting: attempt = {e}");
         };
+
+    }
+    void Update()
+    {
+        
     }
 }
