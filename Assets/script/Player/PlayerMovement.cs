@@ -5,6 +5,9 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : MonoBehaviour
 {
+    //https://github.com/readyplayerme/rpm-unity-sdk-core.git
+    // email : x3mnaufalnabilramadhan@gmail.com
+    // passwword : @Subhanallah123
     public Camera playerCamera;
     public float walkSpeed = 6f;
     public float runSpeed = 12f;
