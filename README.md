@@ -53,12 +53,12 @@ npm run build
 - Muhammad Syamil Muwahhid / X RPL 8
 - Naufal Nabil Ramadhan / X RPL 8
 
-### Grapich Designer
+### Graphic Designer
 
 - Mohammad Abdul Aziz / X RPL 8
 - Leon Adam Royyan / X RPL 8
 
-### Data Analist
+### Data Analyst
 
 - Diva Nadya Pasha Ramadhani/ X RPL 8
 
