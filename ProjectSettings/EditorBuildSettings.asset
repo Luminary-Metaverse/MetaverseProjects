@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Samples/Ready Player Me Core/4.0.1/QuickStart/QuickStart.unity
+    guid: 82ffac477ce64fd46a57d2d423d0a5f6
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 027d563a4f77e2443ba18df6fe3a078d, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c02f9871ebae1c44d97d6f234dd2e1bb, type: 2}

@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.XR;
 
 namespace ReadyPlayerMe.Samples
 {
@@ -30,6 +31,8 @@ namespace ReadyPlayerMe.Samples
         private bool isRunning;
 
         private GroundCheck groundCheck;
+
+        public Animator anim;
         
         private void Awake()
         {
@@ -89,6 +92,7 @@ namespace ReadyPlayerMe.Samples
         public void SetIsRunning(bool running)
         {
             isRunning = running;
+            anim.SetFloat("MoveSpeed", 1);
         }
         
         public bool TryJump()
