@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace LookAtCamera
+namespace ReadyPlayerMe.Samples
 {
     public class LookAtCamera : MonoBehaviour
     {

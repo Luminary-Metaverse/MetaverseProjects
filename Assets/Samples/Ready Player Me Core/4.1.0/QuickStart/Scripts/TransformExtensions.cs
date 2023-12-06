@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace TransformExtensions
+namespace ReadyPlayerMe.Samples
 {
     public static class TransformExtensions
     {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace MouseCursorLock
+namespace ReadyPlayerMe.Samples
 {
     public class MouseCursorLock : MonoBehaviour
     {

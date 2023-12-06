@@ -1,12 +1,12 @@
 using System;
 using UnityEngine;
 
-namespace ThirdPersonMovement
+namespace ReadyPlayerMe.Samples
 {
     [RequireComponent(typeof(CharacterController), typeof(GroundCheck))]
     public class ThirdPersonMovement : MonoBehaviour
     {
-            private const float TURN_SMOOTH_TIME = 0.05f;
+        private const float TURN_SMOOTH_TIME = 0.05f;
 
         [SerializeField][Tooltip("Used to determine movement direction based on input and camera forward axis")] 
         private Transform playerCamera;
@@ -29,7 +29,7 @@ namespace ThirdPersonMovement
         public float CurrentMoveSpeed { get; private set; }
         private bool isRunning;
 
-        private Vector3 GroundCheck =  groundCheck;
+        private GroundCheck groundCheck;
         
         private void Awake()
         {

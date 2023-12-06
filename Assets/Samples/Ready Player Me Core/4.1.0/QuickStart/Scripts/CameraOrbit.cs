@@ -1,13 +1,13 @@
 using UnityEngine;
 
-namespace CameraOrbit
+namespace ReadyPlayerMe.Samples
 {
     public class CameraOrbit : MonoBehaviour
     {
         private const float SMOOTH_TIME = 0.1f;
         
         [SerializeField][Tooltip("PlayerInput component is required to listen for input")]
-        private Vector3 PlayerInput = playerInput;
+        private PlayerInput playerInput;
         [SerializeField][Tooltip("Used to set lower limit of camera rotation clamping")]
         private float minRotationX = -60f;
         [SerializeField][Tooltip("Used to set upper limit of camera rotation clamping")]

@@ -2,7 +2,7 @@ using System;
 using ReadyPlayerMe.Core;
 using UnityEngine;
 
-namespace ThirdPersonLoader
+namespace ReadyPlayerMe.Samples
 {
     public class ThirdPersonLoader : MonoBehaviour
     {
@@ -37,12 +37,12 @@ namespace ThirdPersonLoader
             }
         }
 
-        private void onLoadFailed(object sender, FailureEventArgs args)
+        private void OnLoadFailed(object sender, FailureEventArgs args)
         {
             OnLoadComplete?.Invoke();
         }
 
-        private void onLoadCompleted(object sender, CompletionEventArgs args)
+        private void OnLoadCompleted(object sender, CompletionEventArgs args)
         {
             if (previewAvatar != null)
             {

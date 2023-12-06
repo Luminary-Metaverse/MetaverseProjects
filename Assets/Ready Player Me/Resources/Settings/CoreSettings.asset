@@ -15,4 +15,4 @@ MonoBehaviour:
   Subdomain: luminary-metaverse
   AppId: 65586005c828adcae0b4496e
   EnableLogging: 0
-  EnableAnalytics: 0
+  EnableAnalytics: 1

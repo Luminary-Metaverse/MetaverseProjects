@@ -1,11 +1,10 @@
 using System;
 using ReadyPlayerMe.Core;
 using ReadyPlayerMe.Core.Analytics;
-using TMPro.Examples;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace PersonalAvatarLoader
+namespace ReadyPlayerMe.Samples
 {
     public class PersonalAvatarLoader : MonoBehaviour
     {
@@ -21,9 +20,9 @@ namespace PersonalAvatarLoader
         [SerializeField] private GameObject personalAvatarPanel;
 
         [Header("Character Managers")]
-        [SerializeField] private Vector3 ThirdPersonLoader =  thirdPersonLoader;
-        [SerializeField] private Vector3 CameraOrbit = cameraOrbit;
-        [SerializeField] private Vector3 ThirdPersonController = thirdPersonController;
+        [SerializeField] private ThirdPersonLoader thirdPersonLoader;
+        [SerializeField] private CameraOrbit cameraOrbit;
+        [SerializeField] private ThirdPersonController thirdPersonController;
         
         private string defaultButtonText;
 

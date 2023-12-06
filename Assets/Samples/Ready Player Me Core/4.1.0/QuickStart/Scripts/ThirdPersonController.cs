@@ -1,8 +1,8 @@
-using ThirdPersonMovement;
 using UnityEngine;
 
-namespace ThirdPersonController
+namespace ReadyPlayerMe.Samples
 {
+    [RequireComponent(typeof(ThirdPersonMovement),typeof(PlayerInput))]
     public class ThirdPersonController : MonoBehaviour
     {
         private const float FALL_TIMEOUT = 0.15f;
@@ -17,8 +17,8 @@ namespace ThirdPersonController
         private Vector2 inputVector;
         private Vector3 moveVector;
         private GameObject avatar;
-        private Vector3 thirdpersonmovement =  thirdPersonMovement;
-        private string PlayerInput = playerInput;
+        private ThirdPersonMovement thirdPersonMovement;
+        private PlayerInput playerInput;
         
         private float fallTimeoutDelta;
         

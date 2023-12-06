@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace GroundCheck
+namespace ReadyPlayerMe.Samples
 {
     public class GroundCheck : MonoBehaviour
     {
