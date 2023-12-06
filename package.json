@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Luminary-Metaverse/MetaverseProjects#readme",
   "dependencies": {
+    "@readyplayerme/react-avatar-creator": "^0.3.0",
+    "@readyplayerme/visage": "^4.12.4",
     "socket.io": "^4.7.2"
   }
 }

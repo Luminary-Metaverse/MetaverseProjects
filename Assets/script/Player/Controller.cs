@@ -42,6 +42,7 @@ public class Controller : MonoBehaviour
     public static InputFeatureUsage<bool> primary2DAxisClick;
     public static InputFeatureUsage<bool> primary2DAxisTouch;
     public static InputFeatureUsage<bool> userPresence;
+    public Animator anim;
 
     public List<GameObject> controllerPrefabs;
 
@@ -58,6 +59,7 @@ public class Controller : MonoBehaviour
         if (targetDevice.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 primary2DAxisValue) && primary2DAxisValue != Vector2.zero)
         {
             Debug.Log("Primary Joystick : " + primary2DAxisValue);
+            anim.SetFloat("MoveSpeed", 1);
         }
         if (targetDevice.TryGetFeatureValue(CommonUsages.grip, out float gripValue) && gripValue > 0.1f)
         {
