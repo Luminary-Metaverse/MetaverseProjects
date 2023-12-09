@@ -51,6 +51,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Client.sln",
+    "dotnet.defaultSolution": "MetaverseProjects.sln",
     "dotnet.preferCSharpExtension": true
 }
