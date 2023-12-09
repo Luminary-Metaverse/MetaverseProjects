@@ -14,6 +14,7 @@
     "com.unity.xr.management": "4.4.0",
     "com.unity.xr.oculus": "4.1.2",
     "com.unity.xr.openxr": "1.9.1",
+    "io.colyseus.sdk": "https://github.com/colyseus/colyseus-unity3d.git#upm",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
